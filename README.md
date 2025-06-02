@@ -1,6 +1,4 @@
-# supervised-Learning_Lung-Cancer
-
-Load the Require Library 
+#Load the Require Library 
 ```{r, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(dplyr)
@@ -16,7 +14,7 @@ library(caret)
 library(ROCR)
 ```
 
-Take the Data Into R 
+#Take the Data Into R 
 ```{r, message=FALSE, warning=FALSE}
 Lung_cancer<-read.csv("survey lung cancer.csv", header = TRUE)
 str(Lung_cancer)
@@ -38,7 +36,6 @@ summary(Full_data)
 ```
 
 #FITTING THE MODEL (LOGISTICS REGRESSION MODEL)
-
 
 ```{r message=FALSE, warning=FALSE}
 LUNG_CANCER<-Full_data$LUNG_CANCER
